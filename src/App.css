@@ -1,0 +1,106 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #e6e6e6;
+  padding: 20px 70px;
+  border-bottom: 1px solid gray;
+}
+
+.header-container {
+  margin: 0 auto;
+}
+
+.header-title {
+  font-family:
+    'Montserrat',
+    sans-serif;
+  font-size: 1.9em;
+  font-weight: bold;
+  margin-top: 9px;
+  margin-left: 5px;
+}
+
+.header-left {
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  float: right;
+  margin-top: -3%;
+}
+
+nav ul li {
+  margin-left: 20px;
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family:
+    'Montserrat',
+    sans-serif;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: 20px auto;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+.wide-td {
+  white-space: nowrap;
+}
+
+.status {
+  padding: 3px;
+  border-radius: 7px;
+  color: #fff;
+}
+
+tr:nth-child(even) p {
+  background-color: rgb(80, 98, 158);
+}
+
+.active-btn {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid red;
+  border-radius: 4px;
+}

@@ -1,0 +1,25 @@
+.profile {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10%;
+  margin-top: 8%;
+}
+
+.profile-card {
+  list-style: none;
+  border: 1px solid  rgb(33, 32, 32);
+  border-radius: 7px;
+  padding: 0;
+  margin: 0 10px;
+}
+
+.ul-list-item {
+  border-bottom: 1px solid rgb(21, 19, 19);
+  width: 100%;
+  padding: 3%;
+  margin: 0;
+}
+
+.ul-list-item:last-child {
+  border-bottom: none;
+}
